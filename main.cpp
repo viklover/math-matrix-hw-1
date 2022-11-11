@@ -34,7 +34,7 @@ Matrix::Matrix(const Matrix& obj) {
 
 void Matrix::input(const char* name) {
     cout << endl << "Введите размеры и значения матрицы №" << name << ":" << endl;
-    cin >> width >> height;
+    cin >> height >> width;
 
     array = new int* [height];
 
